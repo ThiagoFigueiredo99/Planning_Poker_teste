@@ -9,7 +9,6 @@
   <link rel="stylesheet" type="text/css" href="./CSS/modals.css" />
   <title>Planning Poker</title>
 </head>
-
 <body>
   <header>
     <div class="poker">
@@ -22,6 +21,10 @@
       </ul>
     </div>
   </header>
+
+  <div class="loader"></div>
+
+
   <div class="container">
     <div class="row">
       <div class="player">
@@ -49,72 +52,11 @@
         </div>
       </div>
     </div>
-
     <div class="button-container">
       <div class="rectangle">
-        <button class="button">Nova Votação</button>
-        <div class="modal">
-          <div class="modal-hist">
-            <form>
-              <label for="title">Título:</label>
-              <input type="text" id="title" name="title">
-              <label for="description">Descrição:</label>
-              <textarea id="description" name="description"></textarea>
-              <div class="buttons">
-                <button type="button" class="back">Voltar</button>
-              </div>
-            </form>
-
-            <div class="modal-resultado">
-              <form>
-                <div class="container">
-                  <div class="row">
-                    <div class="player-result">
-                      <div class="card-result">
-                        <span>?</span>
-                      </div>
-                      <p>Player 1</p>
-                    </div>
-                    <div class="player-result">
-                      <div class="card-result">
-                        <span>?</span>
-                      </div>
-                      <p>Player 2</p>
-                    </div>
-                    <div class="player-result">
-                      <div class="card-result">
-                        <span>?</span>
-                      </div>
-                      <p>Player 3</p>
-                    </div>
-                    <div class="player-result">
-                      <div class="card-result">
-                        <span>?</span>
-                      </div>
-                      <p>Player 4</p>
-                    </div>
-                  </div>
-              </form>
-            </div>
-
-            <div class="modal-votacao">
-              <form>
-                <label for="title">Título:</label>
-                <input type="text" id="title" name="title">
-                <label for="description">Descrição:</label>
-                <textarea id="description" name="description"></textarea>
-                <div class="buttons">
-                  <button type="button" class="confirm">Confirmar</button>
-                  <button type="button" class="cancel">Cancelar</button>
-                </div>
-              </form>
-            </div>
-
-          </div>
-        </div>
+        <button class="button newVote">Nova Votação</button>
       </div>
     </div>
-
     <div class="row">
       <div class="player">
         <p>Player 5</p>
@@ -143,7 +85,7 @@
     </div>
   </div>
 
-
+  <script src="/js/classes.js"></script>
+  <script src="/js/index.js"></script>
 </body>
-
 </html>
