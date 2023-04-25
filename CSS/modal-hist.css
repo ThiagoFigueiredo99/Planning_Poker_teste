@@ -16,7 +16,6 @@
   overflow: auto;
   background-color: rgba(242, 238, 255, 0.5);
   mix-blend-mode: normal;
-  
 }
 
 .modal-content {
@@ -74,17 +73,17 @@
 }
 
 .back {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-  }
- 
-  .buttons {
-    margin-left: 270px;
-  }
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
 
-  .title {
-    margin: 46px 0px 53px 0px;
-  }
+.buttons {
+  margin-left: 270px;
+}
+
+.title {
+  margin: 46px 0px 53px 0px;
+}

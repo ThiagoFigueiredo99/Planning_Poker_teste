@@ -16,7 +16,6 @@
   overflow: auto;
   background-color: rgba(242, 238, 255, 0.5);
   mix-blend-mode: normal;
-  
 }
 
 .modal-content {
@@ -36,7 +35,7 @@
 }
 
 body {
-  background-color: rgba(255, 238, 238, 0.5);;
+  background-color: rgba(255, 238, 238, 0.5);
 }
 
 .row {
@@ -45,41 +44,41 @@ body {
 }
 
 .player {
-    margin: 80px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: center;
-    color: #5d3ddb;
-  }
+  margin: 80px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5d3ddb;
+}
 
 .container .card {
-    box-sizing: border-box;
-    position: relative;
-    width: 79px;
-    height: 110.27px;
-    border: 1px solid #5d3ddb;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    background-image: linear-gradient(to top, #5d3ddb41, rgba(93 61 219));
-    margin: 0 0 13px 0px;
+  box-sizing: border-box;
+  position: relative;
+  width: 79px;
+  height: 110.27px;
+  border: 1px solid #5d3ddb;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  background-image: linear-gradient(to top, #5d3ddb41, rgba(93 61 219));
+  margin: 0 0 13px 0px;
 }
 .container .row .player:first-child {
-    margin: 197px 58px 121px 99px !important;
+  margin: 197px 58px 121px 99px !important;
 }
 
 .container .row .player:last-child {
-    margin: 197px 98px 121px 58px !important;   
+  margin: 197px 98px 121px 58px !important;
 }
 
 .container .row .player {
-    margin: 197px 58px 121px 58px;
+  margin: 197px 58px 121px 58px;
 }
